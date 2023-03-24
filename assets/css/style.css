@@ -5,15 +5,164 @@ body{
 }
 
 h1,
-h2{
+h2,
+h3{
     font-family: 'Times New Roman', Times, serif;
 }
 
-ul{
-    margin: 0;
+/* reusable style */
+
+.no-margin-top{
+    margin-top: 0;
 }
 
+.italics{
+    font-style: italic;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bold{
+    font-weight: 500;
+}
+
+/* header */
+
 header{
-    height: 100px;
+    height: 140px;
+    background: #6F4E37 url(../images/coffee-beans-pexels-igor-haritanovich.jpg) no-repeat fixed center/cover;
+}
+
+#logo{
+    height: 80px;
+    width: 200px;
+    background-color: oldlace;
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+/* nav{
+    padding-right: 20px;
+} */
+
+ul{
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: oldlace;
+    padding-right: 20px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* about section */
+
+#about-section{
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-wrapper{
+    height: 550px;
+    width: 80%;
+    position: relative;
+}
+
+#color-square{
+    height: 250px;
+    width: 250px;
+    background-color: brown;
+    margin-top: 30px;
+}
+
+#about-image{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+}
+
+/* menu section */
+
+#menu-section{
+    height: 700px;
+    background: brown url(../images/coffee-beans-pexels-igor-haritanovich.jpg) no-repeat fixed center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#menu-wrapper{
+    background-color: oldlace;
+    height: 550px;
+    width: 80%;
+}
+
+#menu-section li{
+    list-style: none;
+}
+
+/* contact section */
+
+#contact-section{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-wrapper{
+    height: 600px;
+    width: 80%;
+}
+
+#map-placeholder{
+    width: 100%;
+    height: 300px;
+    background-color: lightblue;
+}
+
+/* footer */
+
+footer{
+    height: 170px;
     background-color: #6F4E37;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-wrapper{
+    height: 140px;
+    width: 80%;
+}
+
+footer li{
+    display: inline-block;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: brown;
 }

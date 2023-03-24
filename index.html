@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <script src="https://kit.fontawesome.com/06f013de70.js" crossorigin="anonymous"></script>
+
     <title>Cappuccino Factory</title>
 </head>
 
@@ -27,18 +29,92 @@
     </header>
 
     <!-- About -->
-    <section id="about">
-        <div>
+    <section id="about-section">
+        <div id="about-wrapper">
+            <div>
+                <h2 class="no-margin-top">Hey!</h2>
+                <p>We are a small, local, independent coffee shop that makes great coffee.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+            <div id="color-square"></div>
+            <img src="assets/images/server-holding-coffee-mug-pexels-porapak-apichodilok.jpg"
+                alt="Barista serving coffee" id="about-image">
         </div>
     </section>
 
     <!-- Menu -->
-    <section id="menu"></section>
+    <section id="menu-section">
+        <div id="menu-wrapper">
+            <h2>Our Menu</h2>
 
-    <!-- Hours -->
-    <section id="hours"></section>
+            <h3>Hot Drinks</h3>
+            <ul>
+                <li>Espresso <span class="italics">$3</span></li>
+                <li>Latte <span class="italics">$3</span></li>
+                <li>Cappuccino <span class="italics">$3</span></li>
+                <li>Hot chocolate <span class="italics">$3</span></li>
+            </ul>
 
-    <footer></footer>
+            <h3>Pastries</h3>
+            <ul>
+                <li>Croissant <span class="italics">$3</span></li>
+                <li>Brownie <span class="italics">$3</span></li>
+                <li>Muffin <span class="italics">$3</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact-section">
+        <div id="contact-wrapper">
+            <h2 class="text-center no-margin-top">Find Us</h2>
+
+            <h3>Opening times</h3>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Open</th>
+                    <th>Close</th>
+                </tr>
+                <tr>
+                    <td class="bold">Mon to Fri</td>
+                    <td>7am</td>
+                    <td>3pm</td>
+                </tr>
+                <tr>
+                    <td class="bold">Sat & Sun</td>
+                    <td>8am</td>
+                    <td>3pm</td>
+                </tr>
+            </table>
+
+            <h3>Address</h3>
+            <p>42 West Avenue<br>
+                California, USA</p>
+
+            <div id="map-placeholder"><span class="italics">(embed map here)</span></div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer-wrapper">
+            <h2>Follow us on social media</h2>
+            <ul>
+                <li>
+                    <a href="facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+            </ul>
+            <p>Copyright 2023</p>
+        </div>
+    </footer>
 </body>
 
 </html>
